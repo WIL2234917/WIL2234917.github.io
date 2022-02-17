@@ -1,0 +1,42 @@
+<html>
+  <script>
+    function onClick() {
+      alert("You clicked the button!!!");
+    }
+  </script>
+  <body>
+    <div>
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/Sam.html">Sam</a>
+    </div>
+
+    <button onclick="onClick ()">Click here to pet Sam!</button>
+
+    <h1>My name is Sam!</h1>
+    <img>image0.jpeg</img>
+    <p>Please pet me!</p>
+   </body>
+     <style>
+       body {
+         background-color: #5c5c5c;
+         color: white;
+         text-align: center;
+       }
+       p {
+        border: #40826D dashed;
+       }
+       div {
+         overflow: hidden;
+         background-color: white;
+       }
+       div a {
+         float: left;
+         color: black;
+         padding: 10 15;
+       }
+       div a:hover {
+         background-color: #40826D;
+       }
+     </style>
+</html>
